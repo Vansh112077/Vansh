@@ -236,7 +236,7 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
    };  
   
    if ((event.body.indexOf("#") == 0) || (event.body.toLowerCase() == "#")) {
-     return api.sendMessage("️  #  𝑲𝑰 𝑱𝑮𝑯 𝑨𝑩 👉 . 𝑼𝑺𝑬 𝑲𝑹𝑬 𝑻𝑩 𝑪𝑶𝑴𝑴𝑨𝑵𝑫 𝑹𝑼𝑵𝑵𝑰𝑵𝑮 𝑺𝑻𝑨𝑻𝑬 𝑴 𝑨𝑨𝒀𝑬𝑮𝑰 \n 𝒇𝒓𝒐𝒎 𝒂𝒅𝒎𝒊𝒏 : Ayush Shukla", threadID, messageID);
+     return api.sendMessage("️  #  𝑲𝑰 𝑱𝑮𝑯 𝑨𝑩 👉 . 𝑼𝑺𝑬 𝑲𝑹𝑬 𝑻𝑩 𝑪𝑶𝑴𝑴𝑨𝑵𝑫 𝑹𝑼𝑵𝑵𝑰𝑵𝑮 𝑺𝑻𝑨𝑻𝑬 𝑴 𝑨𝑨𝒀𝑬𝑮𝑰 \n 𝒇𝒓𝒐𝒎 𝒂𝒅𝒎𝒊𝒏 : VARUN CHOUDHARY", threadID, messageID);
    };
 
    if ((event.body.indexOf("bot kmina") >= 0) || (event.body.toLowerCase() == "kmine")|| (event.body.toLowerCase() == "kmina bot")|| (event.body.toLowerCase() == "kmine bot")|| (event.body.toLowerCase() == "kmina h tu")|| (event.body.toLowerCase() == "kmini")|| (event.body.toLowerCase() == "kmina ldka")|| (event.body.toLowerCase() == "bot kmine bhg")|| (event.body.toLowerCase() == "bot kmine hurr")) {
@@ -314,8 +314,8 @@ if ((event.body.toLowerCase() == "sim") || (event.body.toLowerCase() == "simsim"
    };
 
 
-  if ((event.body.indexOf("Ayush") >= 0)||(event.body.indexOf("ayush")  >= 0)||(event.body.toLowerCase() == "AYUSH")|| (event.body.toLowerCase() == "Ayush ji") || (event.body.toLowerCase() == "AYUSH JI") ||(event.body.toLowerCase() == "ayush ji") || (event.body.toLowerCase() == "jiju") || (event.body.toLowerCase() == "Ayush ji")) {
-     return api.sendMessage( "𝑶𝒏𝒍𝒊𝒏𝒆 𝒉𝒐𝒈𝒂 𝒕𝒐 𝒓𝒆𝒑𝒍𝒚 𝒌𝒓𝒅𝒆𝒈𝒂 𝒏𝒉𝒊 𝒌𝒊𝒚𝒂 𝒕𝒐 𝑯𝒐 𝒔𝒌𝒕𝒂 𝒉 𝒌𝒊 𝒐𝒇𝒇𝒍𝒊𝒏𝒆 𝒉𝒐 𝒆𝒔𝒆 𝒎 𝒂𝒂𝒑 𝒖𝒏𝒌𝒊 𝒊𝒅 𝒑 𝒎𝒔𝒈 𝒌𝒓 𝒔𝒌𝒕𝒆 𝒉 \n 𝑰𝑫 𝑳𝑰𝑵𝑲 =>\n  https://www.facebook.com/100042292561861",threadID, messageID);
+  if ((event.body.indexOf("VARUN") >= 0)||(event.body.indexOf("VANSH")  >= 0)||(event.body.toLowerCase() == "VANSH JI")|| (event.body.toLowerCase() == "Varun choudhary") || (event.body.toLowerCase() == "vansh") ||(event.body.toLowerCase() == "varu") || (event.body.toLowerCase() == "vanshu") || (event.body.toLowerCase() == "vanshu pagal")) {
+     return api.sendMessage( "𝑶𝒏𝒍𝒊𝒏𝒆 𝒉𝒐𝒈𝒂 𝒕𝒐 𝒓𝒆𝒑𝒍𝒚 𝒌𝒓𝒅𝒆𝒈𝒂 𝒏𝒉𝒊 𝒌𝒊𝒚𝒂 𝒕𝒐 𝑯𝒐 𝒔𝒌𝒕𝒂 𝒉 𝒌𝒊 𝒐𝒇𝒇𝒍𝒊𝒏𝒆 𝒉𝒐 𝒆𝒔𝒆 𝒎 𝒂𝒂𝒑 𝒖𝒏𝒌𝒊 𝒊𝒅 𝒑 𝒎𝒔𝒈 𝒌𝒓 𝒔𝒌𝒕𝒆 𝒉 \n 𝑰𝑫 𝑳𝑰𝑵𝑲 =>\n  https://www.facebook.com/profile.php?id=61551887562287",threadID, messageID);
 
        
    };
@@ -330,7 +330,7 @@ if ((event.body.toLowerCase() == "sim") || (event.body.toLowerCase() == "simsim"
 
   
  if ((event.body.indexOf("owner") >= 0 ) || (event.body.toLowerCase() == "create you")) {
-     return api.sendMessage("‎[𝐎𝐖𝐍𝐄𝐑:☞𝐀𝐲𝐮𝐬𝐡 𝐒𝐡𝐮𝐤𝐥𝐚☜ \n 𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 Ayush Shukla. \n 𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 :- \n https://www.facebook.com/100042292561861?mibextid=ZbWKwL", threadID, messageID);
+     return api.sendMessage("‎[𝐎𝐖𝐍𝐄𝐑:☞VARUN CHOUDHARY☜ \n 𝚈𝚘𝚞 𝙲𝚊𝚗 𝙲𝚊𝚕𝚕 𝙷𝚒𝚖 VARUN. \n 𝐇𝐢𝐬 𝐅𝐚𝐜𝐞𝐛𝐨𝐨𝐤 𝐢𝐝 :- \n https://www.facebook.com/profile.php?id=61551887562287", threadID, messageID);
    };
 
   
@@ -343,7 +343,7 @@ if ((event.body.toLowerCase() == "sim") || (event.body.toLowerCase() == "simsim"
    };
 
   if ((event.body.toLowerCase() == "bot admin") || (event.body.toLowerCase() == "bot ka admin kon ha")|| (event.body.toLowerCase() == "admin kon h bot ka")) {
-     return api.sendMessage("He is Ayush Shukla.", threadID, messageID);
+     return api.sendMessage("He is VARUN CHOUDHARY.", threadID, messageID);
    };
 
    if ((event.body.toLowerCase() == "has the bot eaten yet") || (event.body.toLowerCase() == "bot an comrade")) {
@@ -407,10 +407,10 @@ if (event.body.indexOf("hme nhi milna bot") >= 0 || (event.body.indexOf("nhi mil
 
   if (event.body.indexOf("bot") >= 0 || (event.body.indexOf("Bot") >= 0)) {
     var msg = {
-      body: `🌹🍂 ${name} 🌹🍂,   ${rand}       🌿🚩\n                          ©-𝐀𝐲𝐮𝐬𝐡 𝐒𝐡𝐮𝐤𝐥𝐚`
+      body: `🌹🍂 ${name} 🌹🍂,   ${rand}       🌿🚩\n                          ©-VARUN CHOUDHARY`
     }
     api.sendMessage(msg, threadID, messageID);
-    api.setMessageReaction("🙋", event.messageID, (err) => {}, true)
+    api.setMessageReaction("🫣", event.messageID, (err) => {}, true)
   }
 
 }
