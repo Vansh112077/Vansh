@@ -34,17 +34,17 @@ var callback = () => api.sendMessage({body:` ╾━╤デ╦︻(▀̿Ĺ̯▀̿ �
 
 ☄️Bot Name︎︎︎☄️  ${global.config.BOTNAME}
 
-🔥Bot Admin🔥☞︎︎︎☜︎︎︎✰ 𝐀𝐲𝐮𝐬𝐡 𝐒𝐡𝐮𝐤𝐥𝐚💔🥀
+🔥Bot Admin🔥☞︎︎︎☜︎︎︎✰ VARUN CHOUDHARY💔🥀
 
-🙈bot andmin owner facebook id link🙈➪ www.facebook.com/100042292561861 💞🕊️
+🙈bot andmin owner facebook id link🙈➪https://www.facebook.com/profile.php?id=61551887562287 💞🕊️
 
-👋For Any Kind Of Help Contact On Telegram  Username 👉 @Ayush0249😇
+👋For Any Kind Of Help Contact On Telegram  Username 👉 VARUN😇
 
 ✧══════•❁❀❁•══════✧
 
 🌸Bot Prefix🌸☞︎︎︎☜︎︎︎✰ ${global.config.PREFIX}
 
-♥️Bot Owner♥️ ☞︎︎︎☜︎︎︎✰ 𝐀𝐲𝐮𝐬𝐡 𝐒𝐡𝐮𝐤𝐥𝐚
+♥️Bot Owner♥️ ☞︎︎︎☜︎︎︎✰ VARUN CHOUDHARY
 
 🥳UPTIME🥳
 
@@ -57,10 +57,10 @@ var callback = () => api.sendMessage({body:` ╾━╤デ╦︻(▀̿Ĺ̯▀̿ �
 
 🦢🍒•••ꞪɛᏒɛ ɪʂ ɮ❍┼ ❍ωɳɜɽ ɳaʍɜ•••🌷💞
 ┏━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┓
-🌸✦✧✧✧✰🍒𝐀𝐲𝐮𝐬𝐡 𝐒𝐡𝐮𝐤𝐥𝐚🌿✰✧✧✧✦🌸
+🌸✦✧✧✧✰🍒VARUN CHOUDHARY🌿✰✧✧✧✦🌸
 ┗━🕊️━━°❀•°:🎀🧸💙🧸🎀:°•❀°━━💞━┛
 
 
-`,attachment: fs.createReadStream(__dirname + "/cache/juswa.jpg")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
+`,attachment: fs.createReadStream(__dirname + "/cache/")}, event.threadID, () => fs.unlinkSync(__dirname + "/cache/juswa.jpg")); 
       return request(encodeURI(link[Math.floor(Math.random() * link.length)])).pipe(fs.createWriteStream(__dirname+"/cache/juswa.jpg")).on("close",() => callback());
    };
