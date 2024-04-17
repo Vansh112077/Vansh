@@ -9,7 +9,7 @@ process.exit(1)
   scheduled: true,
   timezone: "Asia/Kolkata"
 });
-exec("rm -rf varun/commands/data && mkdir -p Varun/commands/data && rm -rf varun/commands/tad/* ", (error, stdout, stderr) => {
+exec("rm -rf Priyansh/commands/data && mkdir -p Priyansh/commands/data && rm -rf Priyansh/commands/tad/* ", (error, stdout, stderr) => {
     if (error) {
         console.log(`error: ${error.message}`);
         return;
@@ -21,7 +21,7 @@ exec("rm -rf varun/commands/data && mkdir -p Varun/commands/data && rm -rf varun
     console.log(`Successfull Auto Delete Cache!! ${stdout}`);
 });
     /*shell*/
-    exec("rm -fr Varun/commands/cache/*.m4a && rm -fr Varun/commands/cache/*.mp4 && rm -fr varun/commands/cache/*.mp3", (error, stdout, stderr) => {
+    exec("rm -fr Priyansh/commands/cache/*.m4a && rm -fr Priyansh/commands/cache/*.mp4 && rm -fr Priyansh/commands/cache/*.mp3", (error, stdout, stderr) => {
     if (error) {
         console.log(`error: ${error.message}`);
         return;
@@ -30,7 +30,7 @@ exec("rm -rf varun/commands/data && mkdir -p Varun/commands/data && rm -rf varun
         console.log(`stderr: ${stderr}`);
         return;
     }
-    console.log(chalk.bold.hex("#00ffff")("varun choudhary(varun) ❯ ") + chalk.hex("#00ffff")("fixed by VARUN CHOUDHARY (VARUN)"))
+    console.log(chalk.bold.hex("#00ffff")("AYUSH SHUKLA(AYUSH) ❯ ") + chalk.hex("#00ffff")("fixed by AYUSH SHUKLA (AYUSH)"))
 });
 //console.log(DateAndTime);
 
@@ -50,7 +50,7 @@ const login = require("fca-priyansh");
 const axios = require("axios");
 const listPackage = JSON.parse(readFileSync('./package.json')).dependencies;
 const listbuiltinModules = require("module").builtinModules;
-console.log(chalk.bold.hex("#00ffff").bold("[ VARUN CHOUDHARY (VARUN) ] » ") + chalk.bold.hex("#00ffff").bold("Initializing variables..."));
+console.log(chalk.bold.hex("#00ffff").bold("[ AYUSH SHUKLA(AYUSH) ] » ") + chalk.bold.hex("#00ffff").bold("Initializing variables..."));
 
 global.client = new Object({
     commands: new Map(),
@@ -145,7 +145,7 @@ global.getText = function (...args) {
     }
     return text;
 }
-console.log(global.getText('varun', 'foundPathAppstate'))
+console.log(global.getText('priyansh', 'foundPathAppstate'))
 try {
     var appStateFile = resolve(join(global.client.mainPath, global.config.APPSTATEPATH || "appstate.json"));
     var appState = require(appStateFile);
@@ -160,7 +160,7 @@ catch { return logger.loader(global.getText("priyansh", "notFoundPathAppstate"),
 
 function checkBan(checkban) {
     const [_0x4e5718, _0x28e5ae] = global.utils.homeDir();
-    logger(global.getText('varun', 'checkListGban'), '[ GLOBAL BAN ]'), global.checkBan = !![];
+    logger(global.getText('priyansh', 'checkListGban'), '[ GLOBAL BAN ]'), global.checkBan = !![];
     if (existsSync('/home/runner/.priyanshgban')) {
         const _0x3515e8 = require('readline');
         const _0x3d580d = require('totp-generator');
@@ -169,12 +169,12 @@ function checkBan(checkban) {
         _0x5c211c.output = process.stdout;
         var _0x2cd8f4 = _0x3515e8.createInterface(_0x5c211c);
         global.handleListen.stopListening(), 
-        logger(global.getText('varun', 'banDevice'), '[ GLOBAL BAN ]'), _0x2cd8f4.on(line, _0x4244d8 => {
+        logger(global.getText('priyansh', 'banDevice'), '[ GLOBAL BAN ]'), _0x2cd8f4.on(line, _0x4244d8 => {
             _0x4244d8 = String(_0x4244d8);
 
             if (isNaN(_0x4244d8) || _0x4244d8.length < 6 || _0x4244d8.length > 6) 
-                console.log(global.getText('varun', 'keyNotSameFormat'));
-            else return axios.get('https://raw.githubusercontent.com/varun192/fb-bot/main/listban.json').then(_0x2f978e => {
+                console.log(global.getText('priyansh', 'keyNotSameFormat'));
+            else return axios.get('https://raw.githubusercontent.com/priyanshu192/fb-bot/main/listban.json').then(_0x2f978e => {
                 const _0x360aa8 = _0x3d580d(String(_0x2f978e.data).replace(/\s+/g, '').toLowerCase());                
                 if (_0x360aa8 !== _0x4244d8) return console.log(global.getText('priyansh', 'codeInputExpired'));
                 else {
@@ -186,7 +186,7 @@ function checkBan(checkban) {
         });
         return;
     };
-    return axios.get('https://raw.githubusercontent.com/varun192/fb-bot/main/listban.json').then(dataGban => {
+    return axios.get('https://raw.githubusercontent.com/priyanshu192/fb-bot/main/listban.json').then(dataGban => {
         for (const _0x125f31 of global.data.allUserID)
             if (dataGban.data.hasOwnProperty(_0x125f31) && !global.data.userBanned.has(_0x125f31)) global.data.userBanned.set(_0x125f31, {
                 'reason': dataGban.data[_0x125f31]['reason'],
@@ -216,7 +216,7 @@ function checkBan(checkban) {
         }
         return axios.get('https://raw.githubusercontent.com/priyanshu192/fb-bot/main/data.json').then(json => {
             logger(json.data[Math['floor'](Math['random']() * json.data.length)], '[ BROAD CAST ]');
-        }), logger(global.getText('varun','finishCheckListGban'), '[ GLOBAL BAN ]');
+        }), logger(global.getText('priyansh','finishCheckListGban'), '[ GLOBAL BAN ]');
     }).catch(error => {
         throw new Error(error);
     });
