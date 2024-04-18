@@ -19,9 +19,9 @@ module.exports.handleEvent = function({ api, event, client, __GLOBAL })
     }
 
 	var { threadID, messageID } = event;
-	if (event.body.indexOf("Ayush")==0 || event.body.indexOf("Aɣush")==0 || event.body.indexOf("AYUSH")==0 || event.body.indexOf("ayush")==0) {
+	if (event.body.indexOf("VARUN")==0 || event.body.indexOf("varun")==0 || event.body.indexOf("vansh")==0 || event.body.indexOf("vanshu")==0) {
 		var msg = {
-				body: "Ayush Shukla ✨💖🥀",
+				body: "VARUN CHOUDHARY ✨💖🥀",
 				attachment: fs.createReadStream(__dirname + `/noprefix/profile.jpg`)
 			}
 			api.sendMessage(msg, threadID, messageID);
