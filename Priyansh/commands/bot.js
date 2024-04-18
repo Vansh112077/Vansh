@@ -181,8 +181,10 @@ module.exports.handleEvent = async function({ api, event, args, Threads, Users }
      return api.sendMessage("𝑨𝑨𝒀𝑬 𝑯𝑨𝒀𝑬𝑬 𝑪𝑯𝑼𝑷𝑲𝑬 𝑪𝑯𝑼𝑷𝑲𝑬 𝑺𝑰𝑫𝑬 𝑾𝑨𝑳𝑬 𝑩𝑵𝑫𝑬 𝑷.𝑳𝑰𝑵𝑬 𝑴𝑨𝑹𝑰 𝑱𝑨𝑨 𝑹𝑯𝑰 𝑯", threadID, messageID);
    };
 
-
-
+  
+  if ((event.body.indexOf("😝") >= 0) || (event.body.indexOf("😜") >= 0)|| (event.body.toLowerCase() == "🤪")|| (event.body.toLowerCase() == "😛")|| (event.body.indexOf("😝") >=  0)|| (event.body.toLowerCase() == "😜😜")|| (event.body.toLowerCase() == "😝😝")) {
+     return api.sendMessage("JIBH NA NIKAL WARNA JIBH KAT DUNGA 🫣😒", threadID, messageID);
+   };
 
 
     
