@@ -2,11 +2,11 @@ module.exports.config = {
   name: "pair",
   version: "1.0.0", 
   hasPermssion: 0,
-  credits: "D-Jukie (Xuyên get)",
+  credits: "Anup Kumar",
   description: "Pairing",
   commandCategory: "Love", 
   usages: "pair", 
-  cooldowns: 15
+  cooldowns: 40
 };
 module.exports.run = async function({ api, event,Threads, Users }) {
         const axios = global.nodemodule["axios"];
@@ -39,6 +39,6 @@ module.exports.run = async function({ api, event,Threads, Users }) {
               imglove.push(fs.createReadStream(__dirname + "/cache/giflove.png"));
               imglove.push(fs.createReadStream(__dirname + "/cache/avt2.png"));
 
-        var msg = {body: `Successful pairing!\nWish you two hundred years of happiness\nDouble ratio: ${tle}%\n`+namee+" "+"+"+" "+name, mentions: arraytag, attachment: imglove}
+        var msg = {body: `🥰Successful pairing!\n💌Wish you two hundred years of happiness\n💕Double ratio: ${tle}%\n`+namee+" "+"💓"+" "+name, mentions: arraytag, attachment: imglove}
         return api.sendMessage(msg, event.threadID, event.messageID)
 }
